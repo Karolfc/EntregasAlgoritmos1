@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#container {
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2vh 1.5vw;
+    margin: 1% auto;
+    width: 28vw;
+    height: 86vh;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.5);
+    
+}
+
+#fotoPost {
+    
+    justify-content: center;
+    margin: 12px -1.5vw 0 1.5vw;
+    margin-top: 7vh;
+    margin-left: -1.5vw;
+    width: 28vw;
+    height: 60vh;
+}
+
+#name {
+    position: absolute;
+    margin-top: 1vh;
+    margin-left: 7vh;
+    font-size: 1.8vh;
+    font-weight: 600;
+    color: black;
+}
+
+#place {
+    position: absolute;
+    margin-top: 4vh;
+    font-size: 1.5vh;
+    color: rgb(138, 138, 138);
+    font-weight: lighter;
+    margin-left: 7vh;
+}
+
+#fotoPerfil {
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 0vw;
+    margin-top: 0;
+}
+
+#views {
+    position: absolute;
+    margin-top: 72.5vh;
+    font-size: 1.7vh;
+    font-weight: 600;
+    color: rgb(23, 23, 23);
+}
+
+#description {
+    position: absolute;
+    margin-top: 75vh;
+    font-size: 1.9vh;
+}
+
+#comments {
+    position: absolute;
+    margin-top: 78vh;
+    font-size: 1.8vh;
+    color: rgb(138, 138, 138);
+}
+
+#date {
+    position: absolute;
+    margin-top: 81vh;
+    font-size: 1.2vh;
+    color: rgb(138, 138, 138);
+}
+
+#likeIcon {
+    position: absolute;
+    margin-top: 68.5vh;
+}
+
+#commentIcon {
+    position: absolute;
+    margin-top: 68.4vh;
+    margin-left: 2.5vw;
+}
+
+#sendIcon {
+    position: absolute;
+    margin-top: 68.8vh;
+    margin-left: 5vw;
+}
+
+#saveIcon {
+    position: absolute;
+    margin-top: 71vh;
+    margin-left: 23.5vw;
+}
+
+#moreIcon {
+    position: absolute;
+    margin-top: 2.5vh;
+    margin-left: 23.8vw;
+}
