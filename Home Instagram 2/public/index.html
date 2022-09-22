@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Instagram 2</title>
+    <script type="module" src="./app/index.js"></script>
+    <link rel="stylesheet" href="./app/components/Profile/style.css">
+    <link rel="shortcut icon" href="./images/logo.png">
+</head>
+
+<body>
+    <header id="header">
+        <nav id="headerNavbar">
+            <ul id="navbar">
+                <li><img id="logoInstagram"
+                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1280px-Instagram_logo.svg.png"
+                    alt="logoInstagram"></li>
+                    <section class="searchgroup">
+                        <li id="searchicon"><img src="./images/search.png" alt="searchicon" width="9vw" height="9vh"></li>
+                        <li id="searchText">Search</li>
+                    </section>
+                <li id="homeicon"><img src="https://static.thenounproject.com/png/771236-200.png" alt="homeicon" width="20vw" height="20vh"></li>
+                <li id="messengericon"><img src="https://cdn-icons-png.flaticon.com/512/5948/5948514.png" alt="messengericon" width="13w" height="13vh"></li>
+                <li id="masicon"><img src="https://cdn-icons-png.flaticon.com/512/5948/5948495.png" alt="masicon" width="13vw" height="13vh"></li>
+                <li id="exploreicon"><img src="https://cdn-icons-png.flaticon.com/512/77/77521.png" alt="exploreicon" width="13vw" height="13vh"></li>
+                <li id="likeiconNav"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="likeiconNav" width="13vw" height="13vh"></li>
+                <li><img id="photoperfilNav" src="./images/fotoPerfil.jpg" alt="photoperfilNav" width="14vw" height="14vh"></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <section id="usuarioContainer">
+            <img id="fotoUsuario" src="./images/fotoPerfil.jpg" alt="fotoUsuario" width="32vw" height="32vh">
+            <h1 id="usuario">LittleMonkey22</h1>
+            <h2 id="nombreUsuario">Little Monkey</h2>
+            <p id="switch">Switch</p>
+        </section>
+
+        <section>
+            <h1 id="suggestionsTitle">Suggestions For You</h1>
+            <p id="seeAll">See All</p>
+            <section>
+                <stories-container></stories-container>
+                <app-container></app-container>
+            </section>
+            <suggestions-container></suggestions-container>
+        </section>
+
+        <section id="letrapequeña">
+            <p id="helpText">About·Help·Press·API·Jobs·Privacy·Terms·Locations·<br>Language</p>
+            <section id="copyright">
+                <img id="copyrightimagen" src="./images/copyright.png" alt="copyright" width="7px" height="7px">
+                <p id="copyrightText">2022 INSTAGRAM FROM META</p>
+            </section>
+        </section>
+    </section>
+    <script src="./app/index.js" type="module"></script>
+</body>
+
+</html>

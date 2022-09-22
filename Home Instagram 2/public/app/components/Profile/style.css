@@ -1,0 +1,367 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    height: 8vh;
+    z-index: 1;
+    margin-left: -1vw;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    top: 0;
+    overflow: hidden;
+    height: 10vh;
+    margin-top: 7px;
+  }
+
+#logoInstagram {
+    width: 7vw;
+    height: auto;
+    margin-left: 14vw;
+}
+
+#searchicon {
+    color: rgba(163, 163, 163);
+    margin-left: 1vw;
+    margin-top: -0.2vh;
+}
+
+#searchText {
+    position: absolute;
+    font-size: 9px;
+    font-weight: lighter;
+    color: rgb(174, 174, 174);
+    margin-left: 3vw;
+    margin-top: -3vh;
+}
+
+.searchgroup {
+    background-color: rgb(238, 238, 238);
+    width: 17vw;
+    height: 4.5vh;
+    margin-left: 15vw;
+    border-radius: 4px;
+}
+
+#homeicon {
+    margin-left: 5vw;
+}
+
+#messengericon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#masicon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#exploreicon {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#likeiconNav {
+    margin-left: 1.2vw;
+    margin-top: 0.3vh;
+}
+
+#photoperfilNav {
+    border-radius: 100%;
+    margin-left: 1.2vw;
+    margin-top: 0.5vh;
+}
+
+#container {
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 8px;
+    padding: 2vh 1.5vw;
+    margin: 1% auto;
+    width: 28vw;
+    height: 88vh;
+    margin-left: 28vw;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.3);
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+}
+
+stories-container {
+    display: flex;
+    margin-top: 12vh;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: none;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 30px rgb(206, 206, 206, 0.3);
+    border: 0.8px solid rgba(163, 163, 163, 0.5);
+    width: 28vw;
+    margin-left: 28vw;
+    flex-direction: row;
+}
+
+stories-container::-webkit-scrollbar {
+    width: 0px;
+    height: 15px;
+}
+
+stories-container::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+stories-container::-webkit-scrollbar-button:single-button {
+    background-color: rgb(238, 238, 238);
+    display: block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+#photostory {
+    display: flex;
+    border-radius: 100%;
+    width: 3.8vw;
+    height: 8vh;
+    margin: 8px;
+    margin-right: 1.5px;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#a028eb 90%) border-box;
+    border-radius: 50%;
+    border: 1.5px solid transparent;
+}
+
+#nameStory {
+    font-weight: lighter;
+    font-size: 7px;
+    margin-top: -4px;
+    margin-left: 12px;
+}
+
+#usuarioContainer {
+    position: absolute;
+    margin-left: 58vw;
+}
+
+#fotoUsuario{
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 7px;
+    margin-top: 3.5vh;
+}
+
+#usuario {
+    font-weight: 600;
+    font-size: 7.5px;
+    margin-left: 5.7vw;
+    margin-top: 4.5vh;
+}
+
+#nombreUsuario {
+    font-weight: lighter;
+    font-size: 7.5px;
+    color: rgba(163, 163, 163);
+    margin-left: 5.7vw;
+    margin-top: -1.3vh;
+}
+
+#switch {
+    font-weight: 600;
+    font-size: 7px;
+    color: rgb(0, 166, 255);
+    margin-left: 16vw;
+    margin-top: -5vh;
+}
+
+suggestions-container {
+    display: flex;
+    white-space: nowrap;
+    background-color: white;
+    width: 28vw;
+    margin-left: 58vw;
+    margin-top: -901vh;
+    flex-direction: column;
+}
+
+#suggestionsTitle {
+    position: absolute;
+    font-size: 7.7px;
+    font-weight: 600;
+    color: rgba(163, 163, 163);
+    margin-left: 59vw;
+    margin-top: 16vh;
+}
+
+#seeAll {
+    position: absolute;
+    font-weight: 600;
+    font-size: 7px;
+    margin-left: 74vw;
+    margin-top: 16vh;
+}
+
+#photoSuggestion {
+    display: flex;
+    border-radius: 100%;
+    width: 2vw;
+    height: 4vh;
+    margin: 8px;
+    margin-right: 1.5px;
+}
+
+#nameSuggestion {
+    position: absolute;
+    font-weight: 600;
+    font-size: 7.5px;
+    margin-top: -25px;
+    margin-left: 33px;
+}
+
+#suggestionText {
+    position: absolute;
+    font-weight: lighter;
+    font-size: 7px;
+    color: rgba(163, 163, 163);
+    margin-left: 33px;
+    margin-top: -16px;
+}
+
+#follow {
+    position: absolute;
+    font-weight: 600;
+    font-size: 7px;
+    color: rgb(0, 166, 255);
+    margin-left: 16vw;
+    margin-top: -5vh;
+}
+
+#letrapequeña {
+    font-size: 7px;
+    color: rgb(196, 196, 196);
+    margin-left: 59vw;
+    margin-top: 5vh;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+}
+
+#copyrightimagen {
+    margin-top: 2vh;
+}
+
+#copyrightText {
+    margin-top: 1.9vh;
+    margin-left: 0.3vw;
+}
+
+
+#photopost {
+    margin: 12px -1.5vw 0 1.5vw;
+    margin-top: 7vh;
+    margin-left: -1.5vw;
+    width: 28vw;
+    height: 60vh;
+}
+
+#name {
+    position: absolute;
+    margin-top: 0.4vh;
+    margin-left: 7vh;
+    font-size: 1.8vh;
+    font-weight: 600;
+    color: black;
+}
+
+#place {
+    position: absolute;
+    margin-top: 3vh;
+    font-size: 1.5vh;
+    color: rgb(138, 138, 138);
+    font-weight: lighter;
+    margin-left: 7vh;
+}
+
+#fotoPerfil {
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 0vw;
+    margin-top: 0;
+}
+
+#views {
+    position: absolute;
+    margin-top: 72.8vh;
+    font-size: 1.7vh;
+    font-weight: 600;
+    color: rgb(23, 23, 23);
+}
+
+#description {
+    position: absolute;
+    margin-top: 75.5vh;
+    font-size: 1.8vh;
+}
+
+#comments {
+    position: absolute;
+    margin-top: 78.7vh;
+    font-size: 1.8vh;
+    color: rgb(138, 138, 138);
+}
+
+#date {
+    position: absolute;
+    margin-top: 82vh;
+    font-size: 1.2vh;
+    color: rgb(138, 138, 138);
+}
+
+#likeIcon {
+    position: absolute;
+    margin-top: 68.3vh;
+    margin-left: -25vw;
+}
+
+#commentIcon {
+    position: absolute;
+    margin-top: 68vh;
+    margin-left: -22.8vw;
+}
+
+#sendIcon {
+    position: absolute;
+    margin-top: 68.6vh;
+    margin-left: -20.1vw;
+}
+
+#saveIcon {
+    position: absolute;
+    margin-top: 68.3vh;
+    margin-left: -1vw;
+}
+
+#moreIcon {
+    position: absolute;
+    margin-top: 1.5vh;
+    margin-left: -1vw;
+}

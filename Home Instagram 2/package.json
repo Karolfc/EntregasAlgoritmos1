@@ -1,0 +1,19 @@
+{
+  "name": "clase13dca",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc --watch",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "typescript": "^4.8.2"
+  },
+  "description": ""
+}
