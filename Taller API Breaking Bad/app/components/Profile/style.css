@@ -1,0 +1,25 @@
+body{
+    font-family: Helvetica;
+    font-size: 10pt;
+}
+
+.card{
+    background-color: #f7eacd;
+    height: 610px;
+    width: 330px;
+    margin: 7vh auto;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 5px solid #daa42f;
+}
+
+.ImgCharacter{
+    width: 20vw;
+    height: 440px;
+    border-bottom: 5px solid #daa42f;
+}
+
+.Info{
+    margin: -0.5vh 3vh;
+}

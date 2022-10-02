@@ -1,0 +1,37 @@
+body{
+    font-family: Helvetica;
+    font-size: 6px;
+    font-weight: 100;
+}
+
+.card{
+    background-color: white;
+    height: 70vh;
+    width: 25vw;
+    margin: 7vh auto;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(150, 150, 150, 0.6);
+    border: 1px solid  rgb(107, 94, 255);
+}
+
+#name {
+    margin: 3vh 6vw;
+    text-align: center;
+    color: rgb(64, 50, 216);
+}
+
+.ImgCharacter{
+    border-radius: 2px;
+    width: 60px;
+    height: 72px;
+    justify-content: center;
+    margin: 2vh 6.5vw;
+}
+
+.DataCharacter{
+    margin: 4vh 4vh;
+    font-weight: normal;
+    font-size: 5.5px;    
+}
+
